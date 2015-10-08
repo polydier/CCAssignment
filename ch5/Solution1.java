@@ -1,4 +1,5 @@
 package ch5;
+//andrew ID:dzhu1
 //import java.io.*;
 import java.util.Scanner;
 // given two 32-bit numbers, N and M, and two bit positions.

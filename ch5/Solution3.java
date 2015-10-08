@@ -1,5 +1,6 @@
 package ch5;
 import java.util.lang;
+//andrew ID:dzhu1
 //note: I write two methods on this problem, this is the first one, but not concise enough, I build another code.
 //you can score depending on the one you think better
 //you have an integer and you can flip exactly one bit from 0 to 1

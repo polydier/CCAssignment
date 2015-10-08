@@ -1,4 +1,5 @@
 package ch5;
+//andrew ID:dzhu1
 // just use bruce force
 public class Solution3_2 {
 	static int Sequence_length=32;

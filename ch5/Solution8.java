@@ -1,4 +1,5 @@
 package ch5;
+//andrew ID:dzhu1
 // a screen is stored as a single array of bytes
 //screen has width w, w is divisible by 8, the height of screen can be derived
 //from the length of the array and the width. Implement a function that draws 
