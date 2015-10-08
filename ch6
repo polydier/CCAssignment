@@ -1,0 +1,46 @@
+Coding-Boot Camp homework ch6 Answer
+Judy(Di) Zhu
+Andrew ID:dzhu1
+
+1 
+Because we can only use scale for once, take different number of pills from different bottles. Take one from bottle 1, take two from bottle 2, three from bottle 3….take twenty from bottle 20. At last, we get 210 pills, and we can calculate how many extra weight we get. 
+The amount of the pills is:
+Weight-210grams/0.1gram
+
+2 
+The probability to win the first game is p;
+the probability to win the second game is p*p*(1-p)+p*(1-p)*p+(1-p)*p*p+p^3=3(1-p)p^2+p^3=3p^2-2p^3
+p>3p^2-2p^3  p>1/2
+Thus, when p>1/2, the first probability is higher; when p<1/2, second probability is higher; p = 0, 1/2,1 two methods are of same probability
+
+3 
+It is impossible. Say just paint the chessboard into black and white, each one will not have same adjacent color. In painting, there will be 32 black and 30 white, or verse. Each domino we put should have at least in one black and one in white, say, this is impossible in this chessboard.
+
+4 
+For each ant, they have two choices, the possibility is 2^3=8, but the only two possibilities for no collision is that all of them are in clockwise or counterclockwise, thus the possibility of no collision is 1-2/8=3/4
+when it happens in n-vertex polygon, there are 2^n possibilities, thus the possibility of no collision is 1-(2/(2^n))=1-1/(2^(n-1))
+
+5
+ build a table recording the status of two jugs.
+  
+Jug 5-quat	jug 3-quat
+5	0
+2	3
+2	0
+0	2
+5	2
+4	3
+
+6
+ We use induction here.
+If there is only 1 with blue eye, he know others are not blue, he leave on the first day. C=1
+
+If there are 2 people with blue eyes, they are not sure how many blue people in the group. If they assume amount is 1, one person left on the first day, another person left on second day. If they know there are 2 blue people, they leave both at the second day.
+
+If there are n people with blue eyes, if others are still around , they know they are blue, it will take n days for all blue left.
+
+In conclusion , it will take c days for c blue persons existing.
+
+
+
+
